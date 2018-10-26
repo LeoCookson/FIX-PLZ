@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif,;
+    background: white;
+    overflow-x: hidden;
+    width: 100%;
+
+ 
+}
+
+
+header {
+    background: linear-gradient(to top left, #ffffcc 0%, #ccccff 100%);
+    padding: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: black;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding: 20px;
+    overflow:hidden;
+   
+    background: linear-gradient(to top left, #ffffff 0%, #ccccff 100%);
+  
+}
+li{
+    
+    float:left;
+    
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 20px;
+   
+}
+
+li a:hover {
+    background-color: #BCC6CC;
+   
+}
+.column {
+    float: left;
+    padding: 20px;
+    font-size: 18px;
+   
+  
+}
+
+.left, .right {
+  width: 33.33%;
+  background: linear-gradient(to bottom, #ffffcc 0%, #6699ff 100%);
+  text-align: center;
+}
+
+.middle {
+  width: 33.33%;
+  background: linear-gradient(to bottom, #ffffcc 0%, #99ccff 100%);
+  text-align: center;
+}
+.col-middle{
+    width: 33.33%;
+  text-align: center;
+  font-size: 20px;
+  
+
+
+}
+.col-left{
+    width: 33.33%
+}
+.col-right{
+    width: 33.33%
+}
+
+
+.co-left, .co-right, .co-middle, .co-middle2{
+    width: 25%;
+}
+
+
+
+.content{
+    text-align: center;
+}
+
+.head1{
+    
+        font-family: 'Raleway', sans-serif;
+       
+        font-size: 18px;
+        
+        background: white;
+      
+}
+
+
+
+
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    background: linear-gradient(to top left, #ffffff 0%, #ccccff 100%); 
+    padding: 10px;
+    text-align: center;
+    color: Black;
+    
+}
